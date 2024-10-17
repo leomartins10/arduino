@@ -12,3 +12,25 @@ O Vídeo ["simulando_blink_led_externo.mp4"]("https://youtu.be/yaiXHl8Ks40") mos
 ### Scren Shot do Código
 
 <img src='screen_shot_blink_parte2.png'>
+
+### Link do Tinkercad
+Link: https://www.tinkercad.com/things/klRn2J0bktM/editel?sharecode=wv9hguwcF9-CE_OqE9YQNDjPbgg4PsueOx6iJxh-JIM
+
+## Algoritimo utilizado em ambas as partes da ponderada
+
+'''
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(13, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+
+'''
